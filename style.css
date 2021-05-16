@@ -3,12 +3,7 @@ body {
   margin: 30px;
 }
 
-h1 {
-  text-align: center;
-  /*   padding: 2rem;
- */
-  font-family: 'Maitree', serif;
-}
+/*         MENU         */
 
 .menu-item {
   display: inline-block;
@@ -50,11 +45,6 @@ a {
   color: rgb(233, 70, 198);
 }
 
-.icon {
-  width: 10%;
-  margin-top: 5%;
-}
-
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -91,12 +81,19 @@ a {
   }
 }
 
+/*         OBSAH STRÁNKY         */
+
+h1 {
+  text-align: center;
+  font-family: 'Maitree', serif;
+}
+
 .container {
   display: flex;
   flex-direction: column-reverse;
 }
 
-img {
+.picture {
   border-radius: 10px;
   display: block;
   margin: auto;
@@ -112,6 +109,29 @@ img {
   width: 80%;
   padding: 0;
   line-height: 1.5rem;
+}
+
+/*         IKONKY         */
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 35px;
+  margin-top: 5%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.text img:hover,
+.text img:focus,
+.text img:active {
+  animation-name: shake;
+  animation-duration: 0.4s;
 }
 
 @media screen and (min-width: 600px) {
@@ -131,7 +151,7 @@ img {
     flex-direction: row-reverse;
   }
 
-  img {
+  .picture {
     width: 40%;
     margin-top: auto;
   }
@@ -146,12 +166,8 @@ img {
     max-width: 800px;
     margin: auto;
   }
-}
 
-.text img:hover,
-.text img:focus,
-.text img:active {
-  background-color: rgb(213, 222, 230);
-  animation-name: shake;
-  animation-duration: 0.4s;
+  .icon-container {
+    display: block;
+  }
 }
