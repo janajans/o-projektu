@@ -4,10 +4,12 @@ body {
 
 h1 {
   text-align: center;
+  font-family: 'Maitree', serif;
 }
 
 .menu-item {
   display: inline-block;
+  font-family: 'Maitree', serif;
 }
 
 .menu {
