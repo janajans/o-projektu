@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 60px;
 }
 
 h1 {
@@ -17,13 +18,15 @@ h1 {
   margin: 0;
   padding: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu a {
   text-decoration: none;
   min-width: 100px;
   display: inline-block;
-  padding: 20px 30px;
+  padding: 10px 30px;
   border-radius: 5px;
   color: black;
   font-weight: bold;
@@ -41,6 +44,7 @@ a {
   text-decoration: none;
   color: rgb(233, 70, 198);
 }
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -79,13 +83,15 @@ a {
 
 .container {
   display: flex;
+  flex-direction: column;
 }
 
 img {
   border-radius: 10px;
   display: block;
   margin: auto;
-  width: 40vmin;
+  width: 80vmin;
+  padding-bottom: 20px;
 }
 
 .text {
@@ -94,6 +100,36 @@ img {
   text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
-  width: 40vmin;
+  width: 80vmin;
   /* padding: 8em; */
+}
+
+@media screen and (min-width: 600px) {
+  .menu {
+    display: block;
+  }
+
+  .menu a {
+    padding: 20px 30px;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  img {
+    width: 40vmin;
+    padding-bottom: 0;
+  }
+
+  .text {
+    width: 40vmin;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
 }
