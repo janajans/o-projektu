@@ -100,7 +100,7 @@ img {
   border-radius: 10px;
   display: block;
   margin: auto;
-  width: 80vmin;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -109,6 +109,8 @@ img {
   margin: auto;
   text-align: justify;
   font-size: 1rem;
+  width: 80%;
+  padding: 0;
   line-height: 1.5rem;
 }
 
@@ -130,12 +132,12 @@ img {
   }
 
   img {
-    width: 40vmin;
+    width: 40%;
     margin-top: auto;
   }
 
   .text {
-    padding: 0 8%;
+    width: 40%;
   }
 }
 
