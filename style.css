@@ -1,11 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 60px;
+  margin: 30px;
 }
 
 h1 {
   text-align: center;
-  padding: 2rem;
+  /*   padding: 2rem;
+ */
   font-family: 'Maitree', serif;
 }
 
@@ -26,7 +27,7 @@ h1 {
   text-decoration: none;
   min-width: 100px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0;
   border-radius: 5px;
   color: black;
   font-weight: bold;
@@ -38,6 +39,10 @@ h1 {
   background-color: rgb(213, 222, 230);
   animation-name: shake;
   animation-duration: 0.4s;
+}
+
+.menu-item--selected a {
+  color: rgb(233, 70, 198);
 }
 
 a {
@@ -119,6 +124,10 @@ img {
 
   .container {
     flex-direction: row;
+  }
+
+  .container-reverse {
+    flex-direction: row-reverse;
   }
 
   img {
