@@ -100,7 +100,7 @@ img {
   display: block;
   margin: auto;
   width: 80vmin;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -132,7 +132,6 @@ img {
 
   img {
     width: 40vmin;
-    padding-bottom: 0;
   }
 
   .text {
