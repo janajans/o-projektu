@@ -89,6 +89,8 @@ img {
 }
 
 .text {
+  display: block;
+  margin: auto;
   text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
