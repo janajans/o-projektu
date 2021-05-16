@@ -52,6 +52,7 @@ a {
 
 .icon {
   width: 10%;
+  margin-top: 5%;
 }
 
 @keyframes shake {
