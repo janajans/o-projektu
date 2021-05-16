@@ -147,3 +147,11 @@ img {
     margin: auto;
   }
 }
+
+.text img:hover,
+.text img:focus,
+.text img:active {
+  background-color: rgb(213, 222, 230);
+  animation-name: shake;
+  animation-duration: 0.4s;
+}
