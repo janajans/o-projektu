@@ -69,3 +69,16 @@ h1 {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+.main {
+  display: flex;
+}
+
+img {
+  border-radius: 10px;
+  width: 50%;
+}
+
+.text {
+  text-align: center;
+}
