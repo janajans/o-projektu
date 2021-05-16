@@ -1,9 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
+
 .menu-item {
   display: inline-block;
 }
+
 .menu {
   margin: 0;
   padding: 0;
@@ -12,6 +18,7 @@ body {
 
 .menu a {
   text-decoration: none;
+  min-width: 100px;
   display: inline-block;
   padding: 20px 30px;
   border-radius: 5px;
