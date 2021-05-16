@@ -109,7 +109,6 @@ img {
   text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
-  width: 80vmin;
 }
 
 @media screen and (min-width: 600px) {
@@ -135,7 +134,7 @@ img {
   }
 
   .text {
-    width: 40vmin;
+    padding: 0 8%;
   }
 }
 
