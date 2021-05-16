@@ -4,11 +4,8 @@ body {
 
 h1 {
   text-align: center;
-<<<<<<< HEAD
   padding: 2rem;
-=======
   font-family: 'Maitree', serif;
->>>>>>> 8bc10201987265f43d8c18c133570c7faa7bffbc
 }
 
 .menu-item {
@@ -84,11 +81,11 @@ img {
   border-radius: 10px;
   display: block;
   margin: auto;
+  width: 40vmin;
 }
 
 .text {
   text-align: justify;
-  margin: auto;
-  font-size: 1.5rem;
-  padding: 8em;
+  font-size: 1rem;
+  /* padding: 8em; */
 }
