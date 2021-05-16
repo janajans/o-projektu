@@ -4,6 +4,7 @@ body {
 
 h1 {
   text-align: center;
+  padding: 2rem;
 }
 
 .menu-item {
@@ -76,9 +77,13 @@ h1 {
 
 img {
   border-radius: 10px;
-  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .text {
-  text-align: center;
+  text-align: justify;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 8em;
 }
